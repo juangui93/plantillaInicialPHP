@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none; 
+	text-decoration:none;	
+}
+
+body {
+	background:url("../img/fondo.jpg");
+	background-attachment:fixed;
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+
+
+
+header {
+	width:1000px;
+	height: 100px;
+	position:relative;
+	margin: 0 auto;
+	background:url("../img/cabecera.jpg")	
+	}
+
+h1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 48px;
+	margin-left: 340px;
+	color: #52292A;
+}
+
+section {
+	top: 1px;
+	width: 1000px;
+	height:800px;
+	position:relative;
+	margin: 0 auto;
+	background:url("../img/pergamino2.png");
+	}
+	
+#caja1 {
+	position:absolute;
+	width:303px;
+	height:502px;
+	background:url("../img/pergamino1.jpg");
+	left:20px;
+	top:20px;	
+	}
+
+#poema {
+	
+	text-align: center;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 20px;
+	color:#2E0C0D;
+	font-style: oblique;
+	margin-top: 150px;
+	
+	
+}
+
+#caja2 {
+	position:absolute;
+	width:636px;
+	height:238px;
+	background:url("../img/pergamino3.jpg");
+	right:20px;
+	top:20px;	
+	}
+
+
+#descripción{
+	
+	text-align: center;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 20px;
+	color:#000000;
+	font-style: oblique;
+	margin-top: 80px;
+	
+}
+	
+#caja3 {
+	position:absolute;
+	width:303px;
+	height:238px;
+	background:url("../img/plumatintero.jpg");
+	bottom:20px;	
+	left:20px;
+	}
+	
+#caja4 {
+	position:absolute;
+	width:636px;
+	height:502px;
+	background:url("../img/pergamino4.jpg");
+	bottom:20px;
+	right:20px;	
+	}
+
+img{
+	margin-top: 10px;
+	margin-left: 200px;
+}
+
+
+#redes {	
+	width: 226px;
+	height:50px;
+	top:250px;
+	right:40px;
+	position:fixed;
+	z-index:2000;
+}
+
+#facebook {
+	width: 50px;
+	height: 50px;
+}
+
+#instagram {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+
+}
+
+#youtube {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;	
+}
+
+#twitter {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+footer {
+	width: 1000px;
+	height: 60px;
+	margin-left: -5px;
+	border-radius: 3px;
+	
+}
+
+
+
+
+
